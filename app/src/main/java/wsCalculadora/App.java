@@ -9,6 +9,11 @@ public class App {
     }
 
     public static void main(String[] args) {
+        Calculadora c = new Calculadora();
+
         System.out.println(new App().getGreeting());
+        System.out.println("CALCULADORA");
+        System.out.println("===========");
+        System.out.println("2+3="+ c.suma(2, 3));
     }
 }
