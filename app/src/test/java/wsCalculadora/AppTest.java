@@ -13,4 +13,11 @@ public class AppTest {
         assertTrue(c.suma(2,3)==5);
         assertTrue(c.suma(3.1, 4.5)==7.6);
     }
+
+    @Test public void testMultiplicacion() {
+        Calculadora c = new Calculadora();
+
+        assertTrue(c.multiplica(2,3)==6);
+        assertTrue(c.multiplica(3.4,4.5)==3.4 * 4.5);
+    }
 }
