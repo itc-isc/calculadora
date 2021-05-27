@@ -20,4 +20,22 @@ public class AppTest {
         assertTrue(c.multiplica(2,3)==6);
         assertTrue(c.multiplica(3.4,4.5)==3.4 * 4.5);
     }
+
+    @Test public void testSeno() {
+        Calculadora c = new Calculadora();
+
+        assertTrue((Double) c.seno(0.0)*1.0==(Double)0.0);
+    }
+
+    @Test public void testCoseno() {
+        Calculadora c = new Calculadora();
+
+        assertTrue((Double) c.coseno(0.0)*1.0==(Double)1.0);
+    }
+
+    @Test public void testTangente() {
+        Calculadora c = new Calculadora();
+
+        assertTrue((Double) c.tangente(0.0)*1.0==(Double)0.0);
+    }
 }
